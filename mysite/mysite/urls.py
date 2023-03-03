@@ -30,7 +30,6 @@ urlpatterns = [
     path('profile/',user_views.profilepage,name='profile'),
 ]
 
-
 urlpatterns += [
     # ... the rest of your URLconf goes here ...
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
